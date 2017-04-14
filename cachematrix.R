@@ -16,9 +16,9 @@
 ##initial input matrix in the first function, and returns this inverse as an 
 ##output.
 ##
-##Then whenever cacheSolve() is called again using the same argument (until a 
-##new matrix is set using the set function), it will immediately retrieve the 
-##inverse without needing to recalculate it.
+##Then whenever cacheSolve() is called again using the same matrix argument 
+##(until a new matrix is set using the set function), it will immediately 
+##retrieve the inverse without needing to recalculate it.
 ##
 ##makeCacheMatrix(), uses two key variables, x and m; x stores the input matrix 
 ##data, and m stores the inverse of that matrix (though it is initialized as 0).
