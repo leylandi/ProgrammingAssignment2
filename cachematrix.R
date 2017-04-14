@@ -10,7 +10,7 @@
 ##The makeCacheMatrix() function takes an invertible matrix as its argument, 
 ##and returns a list of named elements (which are outputs from the accessor 
 ##and mutator methods used within the body of the function). 
-
+##
 ##You can then pass the output of this function as an argument to the second 
 ##function, cacheSolve(), which then calculates and stores the inverse of the 
 ##initial input matrix in the first function, and returns this inverse as an 
